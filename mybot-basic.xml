@@ -1,0 +1,233 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- Greetings and Politeness -->
+<category> <pattern> HELLO </pattern>
+  <template>Hello! How are you?</template> </category>
+
+<category> <pattern> HELLO * </pattern>
+  <template><srai>HELLO</srai></template> </category>
+
+<category> <pattern> HI </pattern>
+  <template><srai>HELLO</srai></template> </category>
+
+<category> <pattern> HEY </pattern>
+  <template><srai>HELLO</srai></template> </category>
+
+<category> <pattern> HI * </pattern>
+  <template><srai>HELLO</srai></template> </category>
+
+<category> <pattern> HOW ARE YOU </pattern>
+  <template>I'm functioning within normal parameters, thanks for asking.</template></category>
+
+<category><pattern> I AM FINE </pattern>
+  <template>That's good to know. What would you like to discuss about?</template></category>
+
+<category><pattern> BYE </pattern>
+  <template>#0$Bye! Nice talking to you. You take care now.</template></category>
+
+<category><pattern> GOODBYE </pattern>
+  <template><srai>BYE</srai></template></category>
+
+<category><pattern> EXIT </pattern>
+  <template><srai>BYE</srai></template></category>
+
+<category> <pattern> THANKS </pattern>
+  <template>You are welcome.</template></category>
+
+<category> <pattern> THANK YOU </pattern>
+  <template><srai>THANKS</srai></template></category>
+
+<category> <pattern> CHEERS </pattern>
+  <template>Sure mate.</template></category>
+
+<category> <pattern> CHEERS * </pattern>
+  <template>Sure mate.</template></category>
+
+  <!--My AIML commands -->
+
+  <category><pattern> WHAT IS THE BIG FIVE </pattern>
+  <template>In Africa, the Big Five game animals are the lion, leopard, rhinoceros, elephant, and African buffalo.The term was coined by big-game hunters, and refers to the five most difficult animals in Africa to hunt on foot</template></category>
+
+<category><pattern> WHAT ARE THE BIG 5</pattern>
+  <template><srai>WHAT IS THE BIG FIVE<star/></srai></template></category>
+
+
+  <category><pattern> WHAT IS THE BIG 5 GAME</pattern>
+  <template><srai>WHAT IS THE BIG FIVE<star/></srai></template></category>
+
+  <category><pattern> WHAT IS THE BIG FIVE GAME</pattern>
+  <template><srai>WHAT IS THE BIG FIVE<star/></srai></template></category>
+
+
+<category><pattern> WHAT IS THE BIG 5</pattern>
+  <template><srai>WHAT IS THE BIG FIVE<star/></srai></template></category>
+
+    <category><pattern> WHATS THE BIG 5</pattern>
+  <template><srai>WHAT IS THE BIG FIVE<star/></srai></template></category>
+
+
+<category><pattern> WHATS THE BIG FIVE</pattern>
+  <template><srai>WHAT IS THE BIG FIVE<star/></srai></template></category>
+
+
+     <category><pattern> WHAT IS A LION </pattern>
+  <template>A Lion is a large flesh-eating mammal of the cat family that has a brownish buff coat, a tufted tail, and in the male a shaggy mane and that lives in open or rocky areas of Africa and formerly southern Asia </template></category>
+
+<category><pattern> WHATS A LION</pattern>
+  <template><srai>WHAT IS A LION<star/></srai></template></category>
+
+
+
+     <category><pattern> WHAT IS A AFRICAN BUFFALO </pattern>
+  <template>Buffaloes are large, heavy cow-like animals. They vary greatly not only in size but in the shapes of their horns and their coloring </template></category>
+
+<category><pattern> WHATS A AFRICAN BUFFALO</pattern>
+  <template><srai>WHAT IS A AFRICAN BUFFALO<star/></srai></template></category>
+
+    <category><pattern> WHAT IS A LEOPARD </pattern>
+  <template>A Leopard is a large solitary cat that has a fawn or brown coat with black spots, native to the forests of Africa and southern Asia. </template></category>
+
+<category><pattern> WHATS A LEOPARD </pattern>
+  <template><srai>WHAT IS A LEOPARD<star/></srai></template></category>
+
+    <category><pattern> WHAT IS A ELEPHANT </pattern>
+  <template>A Elephant is a very large plant-eating mammal with a prehensile trunk, long curved ivory tusks, and large ears, native to Africa and southern Asia. It is the largest living land animal.</template></category>
+
+<category><pattern> WHATS A ELEPHANT</pattern>
+  <template><srai>WHAT IS A ELEPHANT<star/></srai></template></category>
+
+     <category><pattern> WHAT IS A RHINOCEROS </pattern>
+  <template>A Rhino is a massive powerful herbivorous odd-toed ungulate of southeast Asia and Africa having very thick skin and one or two horns on the snout </template></category>
+
+<category><pattern> WHATS A RHINOCEROS </pattern>
+  <template><srai>WHAT IS A RHINOCEROS<star/></srai></template></category>
+
+  <category><pattern> WHAT IS A RHINO </pattern>
+  <template><srai>WHAT IS A RHINOCEROS<star/></srai></template></category>
+
+  <category><pattern> WHATS A RHINO </pattern>
+  <template><srai>WHAT IS A RHINOCEROS<star/></srai></template></category>
+
+
+
+   <category><pattern> SHOW ME THE BIG 5 </pattern>
+    <template>#4$<star index="1"/></template></category>
+
+    <category><pattern> SHOW ME THE BIG FIVE </pattern>
+  <template><srai>SHOW ME THE BIG 5<star/></srai></template></category>
+
+      <category><pattern> DRAW ME THE BIG 5 </pattern>
+  <template><srai>SHOW ME THE BIG 5<star/></srai></template></category>
+
+      <category><pattern> WHAT DO THEY LOOK LIKE </pattern>
+  <template><srai>SHOW ME THE BIG 5<star/></srai></template></category>
+
+        <category><pattern> SHOW ME THEM </pattern>
+  <template><srai>SHOW ME THE BIG 5<star/></srai></template></category>
+
+
+
+  <!-- speach recognition task A extra functinallity  -->
+
+   <category><pattern> LET ME SPEAK TO YOU </pattern>
+    <template>#5$<star index="1"/></template></category>
+
+    <category><pattern> CAN I SPEAK TO YOU </pattern>
+  <template><srai>LET ME SPEAK TO YOU<star/></srai></template></category>
+
+      <category><pattern> CAN WE TALK </pattern>
+  <template><srai>LET ME SPEAK TO YOU<star/></srai></template></category>
+
+      <category><pattern> CAN I TALK TO YOU </pattern>
+  <template><srai>LET ME SPEAK TO YOU<star/></srai></template></category>
+
+        <category><pattern> LET ME TALK TO YOU </pattern>
+  <template><srai>LET ME SPEAK TO YOU<star/></srai></template></category>
+
+
+
+
+
+   <!-- task b -->
+
+<category><pattern> I KNOW THAT * ARE * </pattern>
+    <template>#31$<star index="1"/> are <star index="2"/></template></category>
+
+
+
+
+
+  <category>
+      <pattern> CHECK IF * ARE * </pattern>
+      <template>#32$<star index="1"/> are <star index="2"/></template>
+  </category>
+
+
+  <!-- task b extra functinallity (fuzzy logic) -->
+
+<category><pattern> HOW DANGEROUS ARE * </pattern>
+    <template>#36$<star index="1"/></template></category>
+
+   <!-- task C -->
+
+
+
+    <category>
+       <pattern> WHAT ANIMAL IS THIS? </pattern>
+        <template>#41$<star index="1"/></template>
+
+   </category>
+
+    <category><pattern> WHAT ANIMAL IS THIS </pattern>
+    <template>#41$<star index="1"/></template>
+    </category>
+
+
+    <!-- task C extra functinallity, image classification via video -->
+
+    <category>
+       <pattern> WHAT ANIMAL IS IN THIS VIDEO </pattern>
+        <template>#51$<star index="1"/></template>
+
+   </category>
+
+
+
+<!-- Weather API -->
+<category><pattern> WHAT IS THE WEATHER LIKE IN * </pattern>
+  <template>#2$<star/></template></category>
+
+<category><pattern> HOW IS THE WEATHER IN * </pattern>
+  <template><srai>WHAT IS THE WEATHER LIKE IN <star/></srai></template></category>
+
+<!--- Wikipedia API -->
+<category><pattern> WHAT IS A * </pattern>
+  <template>#1$<star index="1"/></template></category>
+
+<category><pattern> WHAT IS AN * </pattern>
+  <template><srai>WHAT IS A <star/></srai></template></category>
+
+<category><pattern> WHAT IS * </pattern>
+  <template><srai>WHAT IS A <star/></srai></template></category>
+
+<category><pattern> DEFINE * </pattern>
+  <template><srai>WHAT IS A <star/></srai></template></category>
+
+<category><pattern> WHO IS * </pattern>
+  <template><srai>WHAT IS A <star/></srai></template></category>
+
+  <!-- csv file -->
+
+
+
+
+<!-- Default reaction -->
+
+
+<category><pattern> * </pattern>
+  <template>#3$<star index="1"/></template></category>
+
+
+
+
+</aiml>
